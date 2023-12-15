@@ -5,6 +5,9 @@
 @interface CreateThumbnail : NSObject <NativeCreateThumbnailSpec>
 #else
 #import <React/RCTBridgeModule.h>
+#import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
+#import <Photos/Photos.h>
 
 @interface CreateThumbnail : NSObject <RCTBridgeModule>
 #endif
